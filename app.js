@@ -1,0 +1,11 @@
+const myAge=26;
+let earlyYears=2;
+earlyYears =10.5*earlyYears;
+let laterYears=myAge-2;
+laterYears=4*laterYears;
+console.log(earlyYears);
+console.log(laterYears);
+const myAgeInDogYears= earlyYears+laterYears;
+var myName='HAMZA';
+myName = myName.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
